@@ -433,16 +433,17 @@ $(function() {
 	
 	//Feedback form submission using Ajax.
 	$("#feedback").on("submit", function(e) {
-		e.preventDefault();
-		$.ajax({
-			url: $(this).attr("action"),
-			type: 'POST',
-			data: $(this).serialize(),
-			beforeSend: function() {},
-			success: function(data) {
-				$("#feedback-close").click();
-				$("#success-trigger").click();
-			}
-		});
+		alert("Sorry, the feedback form is no longer active.")
+		// e.preventDefault();
+		// $.ajax({
+		// 	url: $(this).attr("action"),
+		// 	type: 'POST',
+		// 	data: $(this).serialize(),
+		// 	beforeSend: function() {},
+		// 	success: function(data) {
+		// 		$("#feedback-close").click();
+		// 		$("#success-trigger").click();
+		// 	}
+		// });
 	});
 });

@@ -3,7 +3,7 @@
 	$subject = $_POST['subject'];
 	$message = $_POST['message'];
 
-	$receiver = "brycelstpierre@gmail.com";
+	$receiver = "#";
 
 	$headers = "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
