@@ -7,13 +7,13 @@ body {
 }
 .home {
 	background-image: url(../../images/averager-study.jpg);
- 	background-position: center top;
-	background-size: 1800px auto;
+	background-size: 2000px auto;
+  background-position: center -200px;
 }
 .whats-new {
 	background-image: url(../../images/averager-typewriter.jpg);
- 	background-position: center top;
-	background-size: 1800px auto;
+	background-size: 2000px auto;
+	background-position: center -200px;
 }
 .box {
 	padding-top: 70px;
